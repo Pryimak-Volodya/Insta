@@ -1,0 +1,56 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.content {
+  position: relative;
+  background-color: #ffb6c7;
+  width: 250px;
+  height: 400px;
+  margin: 5px auto;
+}
+.logo {
+  position: relative;
+  width: 100px;
+  height: 20px;
+  border: black solid 1px;
+  font-size: 18spt;
+  font-weight: inherit;
+  font-family: Arial, serif;
+  text-align: center;
+  padding: 5px;
+  top: 5px;
+  left: 15px;
+}
+.candy {
+  display: inline-block;
+  font-family: 'Playball', cursive;
+  font-size: 26pt;
+  top: 5px;
+  margin: 10px;
+}
+.for {
+  display: inline-block;
+  width: 30px;
+  background: red;
+  font-size: 12pt;
+  font-family: Arial, serif;
+  color: white;
+  padding: 2px;
+  text-align: center;
+}
+.snack {
+  color: red;
+  font-family: 'Playball', cursive;
+  font-size: 26pt;
+  float: right;
+  margin-right: 5px;
+
+}
+img {
+  display: block;
+  position: relative;
+  width: 100px;
+  height: 100px;
+  top: 30px;
+}

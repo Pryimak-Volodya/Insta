@@ -6,7 +6,11 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./candy1.component.css']
 })
 export class Candy1Component implements OnInit {
-
+  public content = 'content';
+  public logo = 'logo';
+  public candy = 'candy';
+  public for = 'for';
+  public snack = 'snack';
   constructor() { }
 
   ngOnInit(): void {
