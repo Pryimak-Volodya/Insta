@@ -11,6 +11,8 @@ export class Candy1Component implements OnInit {
   public candy = 'candy';
   public for = 'for';
   public snack = 'snack';
+  public chupR = 'chup right';
+  public chupL = 'chup left';
   constructor() { }
 
   ngOnInit(): void {

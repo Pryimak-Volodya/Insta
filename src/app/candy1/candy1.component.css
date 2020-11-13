@@ -45,7 +45,6 @@
   font-size: 26pt;
   float: right;
   margin-right: 5px;
-
 }
 img {
   display: block;
@@ -54,4 +53,37 @@ img {
   height: 100px;
   top: 30px;
   border: 1px solid black;
+}
+.chup {
+  position: absolute;
+  left: 200px;
+  top: 50px;
+}
+.up {
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+}
+.palka {
+  position: relative;
+  width: 2px;
+  height: 30px;
+  background-color: white;
+}
+.left {
+  transform: rotate(35deg);
+}
+.right {
+  transform: rotate(145deg);
+}
+.right .up {
+  background-color: red;
+  top: 27px;
+  left: -7px;
+}
+.left .up {
+  background-color: orange;
+  bottom: 27px;
+  left: -7px;
 }
