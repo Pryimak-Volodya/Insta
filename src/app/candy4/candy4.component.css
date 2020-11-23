@@ -22,17 +22,18 @@
   text-align: center;
   padding: 5px;
   top: 5px;
-  left: 15px;
+  left: 115px;
 }
 .candy {
-  display: inline-block;
+  display: block;
   font-family: 'Playball', cursive;
   font-size: 26pt;
   top: 5px;
   margin: 10px;
+  float: right;
 }
 .for {
-  display: inline-block;
+  display: block;
   width: 30px;
   background: red;
   font-size: 12pt;
@@ -40,6 +41,7 @@
   color: white;
   padding: 2px;
   text-align: center;
+
 }
 .snack {
   color: red;
@@ -50,9 +52,9 @@
 }
 .chup {
   position: absolute;
-  left: 220px;
-  top: -20px;
-  transform: rotate(195deg);
+  left: 50px;
+  top: 50px;
+
 }
 .up {
   position: absolute;
@@ -86,9 +88,9 @@
   position: relative;
   width: 200px;
   height: 200px;
-  background-image: url("img/1.png");
+  background-image: url("img/7.png");
   background-repeat: no-repeat;
   background-size: 110%;
-  top: 105px;
+  margin-top: 170px;
   right: 9px;
 }

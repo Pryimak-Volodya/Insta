@@ -1,0 +1,126 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.iphone {
+  position: relative;
+  background-color: white;
+  width: 400px;
+  height: 600px;
+  margin: 5px auto;
+  border: #787878 1px solid;
+  border-radius: 8%;
+}
+.user {
+  position: relative;
+  display: inline-block;
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  background: no-repeat url("img/user_ico.png") #ffe724;
+  background-size: contain;
+  margin: 15px 5px 5px 30px;
+}
+.head span {
+  position: relative;
+  display: inline-block;
+  top: -25px;
+}
+.box_point {
+  position: relative;
+  float: right;
+  margin: 30px 25px 0 0;
+}
+.pointe {
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background-color: black;
+  margin: 3px;
+}
+.content {
+  position: relative;
+  width: 350px;
+  height: 400px;
+  /* background-color: #787878; */
+ 
+  margin: 1px auto;
+}
+.like {
+  position: relative;
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  background: no-repeat url("img/hearts_ico.png");
+  background-size: contain;
+  margin: 10px 5px 5px 25px;
+}
+.comment {
+  position: relative;
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  background: no-repeat url("img/comment_ico.png");
+  background-size: contain;
+  margin: 5px 10px;
+}
+.plane {
+  position: relative;
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  background: no-repeat url("img/plane_ico.png");
+  background-size: contain;
+  margin: 5px 10px;
+}
+.navi {
+  position: relative;
+  display: inline-block;
+  margin: 5px 40px;
+  top: -15px;
+}
+.navipointe {
+  display: inline-block;
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background-color: silver;
+  margin: 3px;
+}
+.flat {
+  position: relative;
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  background: no-repeat url("img/flat_ico.png");
+  background-size: contain;
+  margin: 10px 20px;
+  float: right;
+}
+#tlike, .info {
+  font-family: sans-serif;
+  margin: 3px 25px;
+}
+.infolike {
+  font-family: sans-serif;
+  font-size: 10pt;
+  color: #787878;
+  margin: 3px 25px;
+}
+nav {
+  position: absolute;
+  width: 100%;
+  margin: 50% 0;
+}
+nav a {
+  display: block;
+  text-decoration: none;
+  font-size: 24pt;
+  margin: 3px;
+}
+.butNext {
+  float: left;
+}
+.butPrev {
+float: right;
+}

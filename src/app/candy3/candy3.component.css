@@ -32,7 +32,7 @@
   margin: 10px;
 }
 .for {
-  display: inline-block;
+  display: block;
   width: 30px;
   background: red;
   font-size: 12pt;
@@ -45,50 +45,17 @@
   color: red;
   font-family: 'Playball', cursive;
   font-size: 26pt;
-  float: right;
+  float: left;
   margin-right: 5px;
-}
-.chup {
-  position: absolute;
-  left: 220px;
-  top: -20px;
-  transform: rotate(195deg);
-}
-.up {
-  position: absolute;
-  width: 15px;
-  height: 15px;
-  border-radius: 50%;
-}
-.palka {
-  position: relative;
-  width: 2px;
-  height: 30px;
-  background-color: white;
-}
-.right {
-  transform: rotate(35deg);
-}
-.left {
-  transform: rotate(145deg);
-}
-.red .up {
-  background-color: red;
-  bottom: 25px;
-  left: 6px;
-}
-.orange .up {
-  background-color: orange;
-  bottom: 25px;
-  right: 6px;
 }
 .candyPhoto {
   position: relative;
   width: 200px;
   height: 200px;
-  background-image: url("img/1.png");
+  background-image: url("img/3.png");
   background-repeat: no-repeat;
   background-size: 110%;
-  top: 105px;
-  right: 9px;
+  top: 10px;
+  right: 19px;
+  margin-bottom: 40px;
 }

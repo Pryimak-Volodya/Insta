@@ -21,14 +21,12 @@
   font-family: Arial, serif;
   text-align: center;
   padding: 5px;
-  top: 5px;
   left: 15px;
 }
 .candy {
   display: inline-block;
   font-family: 'Playball', cursive;
   font-size: 26pt;
-  top: 5px;
   margin: 10px;
 }
 .for {
@@ -45,14 +43,14 @@
   color: red;
   font-family: 'Playball', cursive;
   font-size: 26pt;
-  float: right;
+  float: left;
   margin-right: 5px;
 }
 .chup {
   position: absolute;
   left: 220px;
-  top: -20px;
-  transform: rotate(195deg);
+  bottom: -17px;
+  transform: rotate(335deg);
 }
 .up {
   position: absolute;
@@ -86,9 +84,10 @@
   position: relative;
   width: 200px;
   height: 200px;
-  background-image: url("img/1.png");
+  background-image: url("img/2.png");
   background-repeat: no-repeat;
   background-size: 110%;
-  top: 105px;
-  right: 9px;
+  top: -11px;
+  right: 11px;
+  margin-bottom: 60px;
 }

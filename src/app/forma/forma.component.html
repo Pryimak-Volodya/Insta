@@ -1,0 +1,33 @@
+<div [class]="iphone">
+  <div [class]="headbox">
+    <div [class]="user"></div>
+    <span>User name</span>
+    <div [class]="pointbox">
+      <div [class]="pointe"></div>
+      <div [class]="pointe"></div>
+      <div [class]="pointe"></div>
+    </div>
+  </div>
+  <div [class]="desktop">
+    <nav>
+      <a routerLink="/Candy1" routerLinkActive="active" [class]="next">></a>
+      <a routerLink="/Candy4" routerLinkActive="active" [class]="prev"><</a>
+  </nav>
+    <router-outlet></router-outlet>
+  </div>
+  <div [class]="footerbox">
+    <div [class]="like"></div>
+    <div [class]="comment"></div>
+    <div [class]="plane"></div>
+    <div [class]="navigatorbox">
+      <div [class]="navipointe"></div>
+      <div [class]="navipointe"></div>
+      <div [class]="navipointe"></div>
+    </div>
+    <div [class]="flat"></div>
+    <p [id]="totallikes">10.2356 views</p>
+    <p [class]="info">User name instagram template</p>
+    <p [class]="infolike">View all 345 comments 5 day ago</p>
+    
+  </div>
+</div>
